@@ -29,14 +29,14 @@ Runs on http://localhost:5173 by default.
 ### 3. Project Structure
 
 src/
-    api/                # API helpers for DummyJSON (fetch, create, update, etc.)
-    components/         # Reusable UI pieces (ProductCard)
-    pages/              # Main pages (List, Detail, Edit, New)
-    state/              # Local context for overrides (temporary persistence)
-    theme/              # Theme + color mode context (light/dark)
-    App.tsx             # Main layout + routes
-    main.tsx            # Entry point
-    types/              # Shared TypeScript types
+    - api/                # API helpers for DummyJSON (fetch, create, update, etc.)
+    - components/         # Reusable UI pieces (ProductCard)
+    - pages/              # Main pages (List, Detail, Edit, New)
+    - state/              # Local context for overrides (temporary persistence)
+    - theme/              # Theme + color mode context (light/dark)
+    - App.tsx             # Main layout + routes
+    - main.tsx            # Entry point
+    - types/              # Shared TypeScript types
 
 ### 4. Design Decisions
 
